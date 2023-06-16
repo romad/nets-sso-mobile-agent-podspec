@@ -9,4 +9,6 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks      = 'NetsSSOMobileAgent.xcframework'
     spec.libraries                = 'c++'
     spec.ios.deployment_target = '12'
+    spec.dependency = "Alamofire"
+    spec.dependency = "SwiftyXMLParser"
 end
