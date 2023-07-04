@@ -7,8 +7,6 @@ Pod::Spec.new do |spec|
     spec.license                  = 'Proprietary Software'
     spec.summary                  = 'NETS SSO MobileAgent for IOS'
     spec.vendored_frameworks      = 'NetsSSOMobileAgent.xcframework'
-    spec.dependency 'Alamofire', '5.7.1'
-    spec.dependency 'SwiftyXMLParser', '5.6.0'
     spec.libraries                = 'c++'
     spec.ios.deployment_target    = '12'
     spec.static_framework         = true
