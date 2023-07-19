@@ -1,8 +1,8 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'NetsSSOMobileAgent'
-    spec.version                  = '2.1.22'
+    spec.version                  = '2.1.24'
     spec.homepage                 = "https://github.com/romad/nets-sso-mobile-agent-ios"
-    spec.source                   = { :git => "https://github.com/romad/nets-sso-mobile-agent-ios.git", :tag =>"2.1.22" }
+    spec.source                   = { :git => "https://github.com/romad/nets-sso-mobile-agent-ios.git", :tag =>"2.1.24" }
     spec.authors                  = 'NETS'
     spec.license                  = 'Proprietary Software'
     spec.summary                  = 'NETS SSO MobileAgent for IOS'
